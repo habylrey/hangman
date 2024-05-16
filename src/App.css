@@ -1,0 +1,49 @@
+.container {
+    padding: 20px 0;
+    max-width: 880px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto;
+    align-items: center;
+}
+.playground {
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.keyboardWrap {
+    align-self: stretch;
+}
+.modalScreen {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.modalScreen_button {
+    background-color: rgba(49, 49, 49, 0.127);
+    outline: none;
+    border: none;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 7px;
+    transition: .3s;
+    cursor: pointer;
+}
+.modalScreen_button:focus {
+    background-color: rgba(81, 153, 161, 0.316);
+}
+.modalScreen_button:hover {
+    background-color: rgba(128, 128, 128, 0.036);
+}

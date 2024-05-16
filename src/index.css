@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Pixelify';
+    src: url(./assets/fonts/PixelifySans-VariableFont_wght.ttf);
+}
+*{
+    --hang_background:black;
+    box-sizing: border-box;
+    margin: 0 0;
+    font-family: 'Pixelify';
+}
