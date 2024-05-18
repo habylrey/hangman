@@ -20,6 +20,7 @@ function App() {
     setGuessedLetters(currentLetters => [...currentLetters, letter])
   
   }, [guessedLetters])
+
   function newGame () {
     setModal(false)
     setWordToGuess(()=>{
