@@ -1,9 +1,5 @@
-# React + TypeScript + Vite
-# Node version 18.9.1 
+
 Hi! Hangman is a classic word-guessing game developed using React.js, Vite, and TypeScript. This game involves guessing a word by suggesting letters within a certain number of attempts. This combination of technologies ensures a smooth, interactive gaming experience with efficient code performance and improved maintainability.
-
-
-
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -33,3 +29,5 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# React + TypeScript + Vite
+# Node version 18.9.1 
