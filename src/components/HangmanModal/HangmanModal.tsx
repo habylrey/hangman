@@ -21,6 +21,7 @@ export function HangmanModal ({ children, visible, setVisible } : HangmanModalPr
 			>
 				{children}
 			</div>
+			<h1>GOODBYE</h1>
 		</div>
 	);
 }
